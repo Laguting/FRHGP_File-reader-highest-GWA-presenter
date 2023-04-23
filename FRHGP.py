@@ -29,8 +29,8 @@ with open("gwalist.txt") as gwa_file:
 # Read the contents
     lines = gwa_file.readlines()
 # Get the highest GWA
-students = [(line.strip().split(",")) for line in lines]
-gwa =  [float(line.strip().split(","))for line in lines]
-highest_student = max(students , key = lambda x: x[gwa])
+students = [(line.strip().split(",") [0], float(line.strip().split(",")[1])) for line in lines]
+highest_student = min(students , key = lambda x: x[1])
 # Display the Highest GWA
+print(f"{highest_student[0]} has the highest GWA which is {highest_student[1]: .2f}")
 # Close the Program
