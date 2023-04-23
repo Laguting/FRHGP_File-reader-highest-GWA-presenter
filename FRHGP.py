@@ -26,8 +26,10 @@ print("")
 
 # Open gwal"ist.txt
 with open("gwalist.txt") as gwa_file:
-    lines = gwa_file.readlines()
 # Read the contents
+    lines = gwa_file.readlines()
 # Get the highest GWA
+students = [(line.strip().split(",")) for line in lines]
+gwa =  [float(line.strip().split(","))for line in lines]
 # Display the Highest GWA
 # Close the Program
