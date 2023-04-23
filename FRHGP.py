@@ -24,7 +24,7 @@ for i in tqdm (range (100), desc="Starting...\U0001F973"):
     pass
 print("")
 
-# Open gwal"ist.txt
+# Open gwalist.txt
 with open("gwalist.txt") as gwa_file:
 # Read the contents
     lines = gwa_file.readlines()
@@ -32,5 +32,11 @@ with open("gwalist.txt") as gwa_file:
 students = [(line.strip().split(",") [0], float(line.strip().split(",")[1])) for line in lines]
 highest_student = min(students , key = lambda x: x[1])
 # Display the Highest GWA
-print(f"{highest_student[0]} has the highest GWA which is {highest_student[1]: .2f}")
+print(f"\33[33m\33[1m{highest_student[0]}, has the highest GWA which is {highest_student[1]: .2f}. Congratulations! \U0001F44F\33[0m")
+
 # Close the Program
+clo_sing = Figlet(font = "bubble")
+print(colored(clo_sing.renderText("Thank you for availing our service!"), "yellow")) 
+closing = Figlet(font = "isometric3")
+print(colored(closing.renderText("Closing..."), "white"))
+print("\U0001F47E" * 45)
