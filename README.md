@@ -7,7 +7,7 @@ https://user-images.githubusercontent.com/129570700/233846385-3a14f742-c6ec-45b9
 - The program has a **loading bar feature** to initiate the program.
 - Uses **pyfiglet**, **termcolor**, and **tqdm**
 
-## How to run in IDE?
+## How to run in IDE 👩🏻‍💻?
 1. Copy the code to your preferred IDE.
 2. Create a file that will store the nmes of the students and their GWA. Then name it as **"gwalist.txt"**
 
@@ -21,18 +21,18 @@ https://user-images.githubusercontent.com/129570700/233846385-3a14f742-c6ec-45b9
 *Sample Picture*
 ![P-2](https://user-images.githubusercontent.com/129570700/233849090-96d7f9c4-b2e6-40f8-8099-425ae4f0a191.PNG)
 
-## How to run in git bash?
+## How to run in git bash 🚀?
 > git clone https://github.com/Laguting/FRHGP_File-reader-highest-GWA-presenter.git
 
 > cd FRHGP_File-reader-highest-GWA-presenter/
 
 > python FRHGP
 
-# INSTALLATIONS
+# INSTALLATIONS 📥
 - **This program used two installations namely Pyfiglet, Termcolor, and Tqdm. Install it by typing the following in the terminal.**
 > pip install pyfiglet, termcolor, tqdm
 
-# CREDITS
+# CREDITS 👩
 - Developed by Maricon Jane G. Laguting from BSCpE 1-4
 ## CONTACTS
 - *Facebook*: https://www.facebook.com/mariconjaneglaguting?mibextid=ZbWKwL
