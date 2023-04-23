@@ -43,4 +43,4 @@ print(colored(clo_sing.renderText("Thank you for availing our service!"), "magen
 print("\33[7m-+°\33[0m" * 45)
 closing = Figlet(font = "isometric3")
 print(colored(closing.renderText("Closing..."), "white"))
-print("\U0001F47E\n" * 45)
+print("\U0001F47E" * 45)
