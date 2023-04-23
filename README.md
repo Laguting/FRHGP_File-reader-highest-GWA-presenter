@@ -8,6 +8,11 @@ https://user-images.githubusercontent.com/129570700/233846385-3a14f742-c6ec-45b9
 - Uses **pyfiglet**, **termcolor**, and **tqdm**
 
 ## How to run in IDE?
+1. Copy the code to your preferred IDE.
+2. Create a file that will store the nmes of the students and their GWA. Then name it as **"gwalist.txt"**
+3. Install the **pyfiglet**, **termcolor**, and **tqdm**
+4. Run the program
+
 ## How to run in git bash?
 # INSTALLATIONS
 # CREDITS
