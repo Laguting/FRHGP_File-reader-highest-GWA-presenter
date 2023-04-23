@@ -24,7 +24,9 @@ for i in tqdm (range (100), desc="Starting...\U0001F973"):
     pass
 print("")
 
-# Open gwalist.txt
+# Open gwal"ist.txt
+with open("gwalist.txt") as gwa_file:
+    lines = gwa_file.readlines()
 # Read the contents
 # Get the highest GWA
 # Display the Highest GWA

@@ -1,0 +1,5 @@
+Ben, 98
+Mari, 99
+Louie, 78
+Mime, 60
+Loop, 90
