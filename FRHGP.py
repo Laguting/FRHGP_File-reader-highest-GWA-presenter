@@ -31,5 +31,6 @@ with open("gwalist.txt") as gwa_file:
 # Get the highest GWA
 students = [(line.strip().split(",")) for line in lines]
 gwa =  [float(line.strip().split(","))for line in lines]
+highest_student = max(students , key = lambda x: x[gwa])
 # Display the Highest GWA
 # Close the Program
