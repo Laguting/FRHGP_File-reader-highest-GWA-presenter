@@ -10,11 +10,26 @@ https://user-images.githubusercontent.com/129570700/233846385-3a14f742-c6ec-45b9
 ## How to run in IDE?
 1. Copy the code to your preferred IDE.
 2. Create a file that will store the nmes of the students and their GWA. Then name it as **"gwalist.txt"**
+
+*Sample Picture*
+
+![P-2 1](https://user-images.githubusercontent.com/129570700/233849060-5ec87d39-ffb4-41d7-ba92-2baf7e7e3c87.PNG)
+
 3. Install the **pyfiglet**, **termcolor**, and **tqdm**
 4. Run the program
 
+*Sample Picture*
+![P-2](https://user-images.githubusercontent.com/129570700/233849090-96d7f9c4-b2e6-40f8-8099-425ae4f0a191.PNG)
+
 ## How to run in git bash?
+> git clone https://github.com/Laguting/FRHGP_File-reader-highest-GWA-presenter.git
+
+> cd FRHGP_File-reader-highest-GWA-presenter/
+
+> python FRHGP
+
 # INSTALLATIONS
+- ****
 # CREDITS
 ## CONTACTS
 # 
